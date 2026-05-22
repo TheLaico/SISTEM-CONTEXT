@@ -1,6 +1,6 @@
 // src/pages/PlanEstudios/PlanEstudios.tsx
 import React, { useState } from 'react'
-import { Link, useParams, useSearchParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import useAdminStudyPlans from '../../hooks/useAdminStudyPlans'
 import AddSubjectToPlanModal from './components/AddSubjectToPlanModal'
 import CreatePlanModal from './components/CreatePlanModal'
@@ -10,7 +10,6 @@ import StudyPlanFiltersBar from './components/StudyPlanFiltersBar'
 import StudyPlanMainTable from './components/StudyPlanMainTable'
 import VersionHistoryTable from './components/VersionHistoryTable'
 import PlanSubjectsSection from './components/PlanSubjectsSection'
-
 
 type ActiveView = 'table' | 'detail' | 'history'
 

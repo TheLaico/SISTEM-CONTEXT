@@ -294,7 +294,7 @@ const routes = [
 {
   path: '/admin/study-plans/edit/:id',
   title: 'Editar Plan',
-  component: StudyPlanDetail,  // Ya importado arriba como StudyPlanDetail
+  component: StudyPlanDetail,  
   allowedRoles: ADMIN,
 },
 
